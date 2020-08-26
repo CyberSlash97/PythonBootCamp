@@ -1,0 +1,83 @@
+##Jupyer Notebook (Python)
+a = 5
+
+a = a+a
+
+type(a)
+
+a=30.1
+type(a)
+
+my_income = 100
+tax_rate = 0.1
+my_taxes = my_income * tax_rate
+
+my_taxes
+
+## Strings
+
+print('hello world one')
+print("world world two")
+
+## Indexing
+
+print("i'm going on a run")
+
+print("hello \n world")
+
+print("hello \t world")
+
+len('i am')
+
+mystring = "Hello World"
+mystring
+
+mystring[-3]
+
+print(mystring[0])
+print(mystring[8])
+
+# SLICING
+
+mystring = 'abcdefghijk'
+mystring
+
+#[start:stop:step]
+mystring[2:]
+
+mystring[3:6]
+
+mystring[::2]
+
+#reverse string
+mystring[::-1]
+mystring[::-2]
+
+
+
+## String Functions
+
+name = "Sam"
+name[1:]
+
+last_letters = name[1:]
+last_letters
+'P'+ last_letters
+
+x = 'Hello World'
+x + " it is beautiful outside"
+
+letter = "z"
+letter*10
+
+## String Functions
+
+# Can't concatenate with string with numbers (dynamic typing)
+x ="Hi this is a string"
+x.upper() 
+
+#split white space
+x.split()
+
+x.split("i")
+
